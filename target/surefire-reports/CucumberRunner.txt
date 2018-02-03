@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: CucumberRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.226 sec <<< FAILURE! - in CucumberRunner
+initializationError(CucumberRunner)  Time elapsed: 0.02 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: util/AllureReporter (wrong name: Util/AllureReporter)
+
