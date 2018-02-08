@@ -14,6 +14,7 @@ import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.HashMap;
+import java.util.NoSuchElementException;
 
 public class MarketPage {
 
@@ -24,31 +25,44 @@ public class MarketPage {
     @FindBy(xpath = "//UL[@class='topmenu__list']//A[@class='link topmenu__link'][text()='Электроника']")
     WebElement Category;
     @FindBy(xpath = "//*[contains(text(),'Перейти ко всем фильтрам')]")
-    public
-    WebElement AllFilter;
+    public WebElement AllFilter;
 
 
     public MarketPage(WebDriver driver) {
+
         PageFactory.initElements(driver, this);
+
         Wait<WebDriver> wait = new WebDriverWait(driver, 20, 3000);
-        wait.until(ExpectedConditions.visibilityOf(AllFilter));
+
+        wait.until(ExpectedConditions.visibilityOf(Category));
+
 
     }
 
-//public void selectGategory (String name) {
-//
-//        Category.findElement(By.xpath("//*[contains(text(),'"+name+"')]"));
-//}
+    private boolean isElementPresent(By by) {
+        try {
+            BaseSteps.getDriver().findElement(by);
+            return true;
+        } catch (NoSuchElementException e) {
+            return false;
+        }
+    }
 
     public WebElement selectSubMenu(String menuItem) {
 
         WebElement element =
                 subMenu.findElement(By.xpath(".//A[@class='link topmenu__link'][text()='"+menuItem+"']"));
 
-        wait.until(ExpectedConditions.elementToBeClickable(element));
 
         Actions actions = new Actions(BaseSteps.getDriver());
         actions.moveToElement(element).build().perform();
+
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         return element;
     }
 
@@ -64,12 +78,14 @@ public class MarketPage {
     }
    public WebElement selectElementByName(WebElement startElement ,String name) throws Exception {
 
+
         String xpath=getXpathFromName(name);
-
        WebElement element =
-               startElement.findElement(By.xpath(xpath));
+               BaseSteps.getDriver().findElement(By.xpath(xpath));
+       if(element==null)
 
-       wait.until(ExpectedConditions.elementToBeClickable(element));
+       System.out.println(element.getText());
+
 
        return element;
     }

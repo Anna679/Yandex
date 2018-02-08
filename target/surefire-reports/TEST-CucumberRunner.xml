@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CucumberRunner" time="0.226" tests="1" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CucumberRunner" time="115.733" tests="28" errors="2" skipped="1" failures="2">
   <properties>
     <property name="idea.version" value="2017.3.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -62,8 +62,68 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="initializationError" classname="CucumberRunner" time="0.02">
-    <error message="util/AllureReporter (wrong name: Util/AllureReporter)" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: util/AllureReporter (wrong name: Util/AllureReporter)
+  <testcase name="Когда выбран пункт меню &quot;Маркет&quot;" classname="Сценарий: Выбор категории товара &quot;Телевизоры&quot;" time="0"/>
+  <testcase name="И выбрано подменю &quot;Электроника&quot;" classname="Сценарий: Выбор категории товара &quot;Телевизоры&quot;" time="0"/>
+  <testcase name="Тогда выбрана категория товара &quot;Телевизоры&quot;" classname="Сценарий: Выбор категории товара &quot;Телевизоры&quot;" time="0"/>
+  <testcase name="Тогда Выполнено нажатие на кнопку -Перейти ко всем фильтрам" classname="Сценарий: Выбор категории товара &quot;Телевизоры&quot;" time="0"/>
+  <testcase name="Когда Выбрана марка телевизора LG" classname="Сценарий: Выбор категории товара &quot;Телевизоры&quot;" time="0"/>
+  <testcase name="Когда Выбрана марка телевизора Samsung" classname="Сценарий: Выбор категории товара &quot;Телевизоры&quot;" time="0"/>
+  <testcase name="Тогда заполняются поля:" classname="Сценарий: Выбор категории товара &quot;Телевизоры&quot;" time="0"/>
+  <testcase name="Когда проверены поля, что заполненны правильными значениями:" classname="Сценарий: Выбор категории товара &quot;Телевизоры&quot;" time="0"/>
+  <testcase name="Тогда Выполнено нажатие на кнопку-Показать подходящие" classname="Сценарий: Выбор категории товара &quot;Телевизоры&quot;" time="0"/>
+  <testcase name="Когда Выполнена проверка количества товара на странице" classname="Сценарий: Выбор категории товара &quot;Телевизоры&quot;" time="0"/>
+  <testcase name="Тогда Выполно запоминание первого товара на странице" classname="Сценарий: Выбор категории товара &quot;Телевизоры&quot;" time="0"/>
+  <testcase name="Когда Выполнен поиск запомненного товара" classname="Сценарий: Выбор категории товара &quot;Телевизоры&quot;" time="0"/>
+  <testcase name="Тогда Выполнено сравнение найденного товара с найденным" classname="Сценарий: Выбор категории товара &quot;Телевизоры&quot;" time="0.014">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+</failure>
+  </testcase>
+  <testcase name="Сценарий: Выбор категории товара &quot;Телевизоры&quot;" classname="Сценарий: Выбор категории товара &quot;Телевизоры&quot;" time="0.014">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+</failure>
+  </testcase>
+  <testcase name="Когда выбран пункт меню &quot;Маркет&quot;" classname="Сценарий: Выбор категории товара &quot;Наушники&quot;" time="0"/>
+  <testcase name="И выбрано подменю &quot;Электроника&quot;" classname="Сценарий: Выбор категории товара &quot;Наушники&quot;" time="0"/>
+  <testcase name="Тогда выбрана категория товара &quot;Наушники&quot;" classname="Сценарий: Выбор категории товара &quot;Наушники&quot;" time="0"/>
+  <testcase name="Тогда Выполнено нажатие на кнопку -Перейти ко всем фильтрам" classname="Сценарий: Выбор категории товара &quot;Наушники&quot;" time="0"/>
+  <testcase name="Когда Выбрана марка Наушниов Beats" classname="Сценарий: Выбор категории товара &quot;Наушники&quot;" time="0"/>
+  <testcase name="Тогда заполняются поля:" classname="Сценарий: Выбор категории товара &quot;Наушники&quot;" time="0"/>
+  <testcase name="Когда проверены поля, что заполненны правильными значениями:" classname="Сценарий: Выбор категории товара &quot;Наушники&quot;" time="0"/>
+  <testcase name="Тогда Выполнено нажатие на кнопку-Показать подходящие" classname="Сценарий: Выбор категории товара &quot;Наушники&quot;" time="0"/>
+  <testcase name="Когда Выполнено нажатие на кнопку выбора вида отображения товара на странице" classname="Сценарий: Выбор категории товара &quot;Наушники&quot;" time="0"/>
+  <testcase name="И Выполнена проверка количества товара на странице" classname="Сценарий: Выбор категории товара &quot;Наушники&quot;" time="0"/>
+  <testcase name="Тогда Выполно запоминание первого товара на странице" classname="Сценарий: Выбор категории товара &quot;Наушники&quot;" time="0"/>
+  <testcase name="Когда Выполнен поиск запомненного товара" classname="Сценарий: Выбор категории товара &quot;Наушники&quot;" time="0.001">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//DIV[@class=&apos;n-product-title__text-container&apos;]&quot;}&#10;  (Session info: chrome=63.0.3239.132)&#10;  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.8.0&apos;, revision: &apos;924c4067df&apos;, time: &apos;2017-11-30T11:20:39.408Z&apos;&#10;System info: host: &apos;DEVSRV&apos;, ip: &apos;10.0.2.15&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_162&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ann\AppData\Local\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}&#10;Session ID: 97ddb371feb555689d15f1436882f549&#10;*** Element info: {Using=xpath, value=//DIV[@class=&apos;n-product-title__text-container&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//DIV[@class='n-product-title__text-container']"}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'
+System info: host: 'DEVSRV', ip: '10.0.2.15', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ann\AppData\Local\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 97ddb371feb555689d15f1436882f549
+*** Element info: {Using=xpath, value=//DIV[@class='n-product-title__text-container']}
 </error>
+  </testcase>
+  <testcase name="Сценарий: Выбор категории товара &quot;Наушники&quot;" classname="Сценарий: Выбор категории товара &quot;Наушники&quot;" time="0.001">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//DIV[@class=&apos;n-product-title__text-container&apos;]&quot;}&#10;  (Session info: chrome=63.0.3239.132)&#10;  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.8.0&apos;, revision: &apos;924c4067df&apos;, time: &apos;2017-11-30T11:20:39.408Z&apos;&#10;System info: host: &apos;DEVSRV&apos;, ip: &apos;10.0.2.15&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_162&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ann\AppData\Local\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}&#10;Session ID: 97ddb371feb555689d15f1436882f549&#10;*** Element info: {Using=xpath, value=//DIV[@class=&apos;n-product-title__text-container&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//DIV[@class='n-product-title__text-container']"}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'
+System info: host: 'DEVSRV', ip: '10.0.2.15', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ann\AppData\Local\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 97ddb371feb555689d15f1436882f549
+*** Element info: {Using=xpath, value=//DIV[@class='n-product-title__text-container']}
+</error>
+  </testcase>
+  <testcase name="Тогда Выполнено сравнение найденного товара с найденным" classname="Сценарий: Выбор категории товара &quot;Наушники&quot;" time="0">
+    <skipped/>
   </testcase>
 </testsuite>

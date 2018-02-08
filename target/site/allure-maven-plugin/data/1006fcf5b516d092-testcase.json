@@ -1,0 +1,440 @@
+{
+  "uid" : "1006fcf5b516d092",
+  "name" : "Выбор категории товара \"Наушники\"",
+  "title" : "Выбор категории товара \"Наушники\"",
+  "time" : {
+    "start" : 1518122494817,
+    "stop" : 1518122578806,
+    "duration" : 83989
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 25
+  },
+  "failure" : {
+    "message" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//DIV[@class='n-product-title__text-container']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'DEVSRV', ip: '10.0.2.15', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_162'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\\Users\\ann\\AppData\\Local\\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}\nSession ID: 97ddb371feb555689d15f1436882f549\n*** Element info: {Using=xpath, value=//DIV[@class='n-product-title__text-container']}",
+    "stackTrace" : "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//DIV[@class='n-product-title__text-container']\"}\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'\nSystem info: host: 'DEVSRV', ip: '10.0.2.15', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_162'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\\Users\\ann\\AppData\\Local\\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}\nSession ID: 97ddb371feb555689d15f1436882f549\n*** Element info: {Using=xpath, value=//DIV[@class='n-product-title__text-container']}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\n\tat Pages.OrderPage.foundMemorizeNameFirstGoods(OrderPage.java:63)\n\tat Steps.OrderStep.stepfoundMemorizeNameFirstGoods(OrderStep.java:30)\n\tat Steps.TestSteps.tepfoundMemorizeNameFirstGoods(TestSteps.java:74)\n\tat ✽.Когда Выполнен поиск запомненного товара(Маркет.feature:36)\n"
+  },
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "suite" : {
+    "uid" : "41ed3cfc94723996",
+    "name" : "Яндекс Маркет",
+    "title" : "Яндекс Маркет"
+  },
+  "steps" : [ {
+    "name" : "Когда выбран пункт меню \"Маркет\"",
+    "title" : "Когда выбран пункт меню \"Маркет\"",
+    "time" : {
+      "start" : 1518122503051,
+      "stop" : 1518122506564,
+      "duration" : 3513
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepSelectMaimMenu[Маркет]",
+      "title" : "Выбран пункт меню Маркет",
+      "time" : {
+        "start" : 1518122503051,
+        "stop" : 1518122506562,
+        "duration" : 3511
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И выбрано подменю \"Электроника\"",
+    "title" : "И выбрано подменю \"Электроника\"",
+    "time" : {
+      "start" : 1518122506564,
+      "stop" : 1518122508332,
+      "duration" : 1768
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepSelectSubMenu[Электроника]",
+      "title" : "Выбран пункт меню Электроника",
+      "time" : {
+        "start" : 1518122506564,
+        "stop" : 1518122508332,
+        "duration" : 1768
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда выбрана категория товара \"Наушники\"",
+    "title" : "Тогда выбрана категория товара \"Наушники\"",
+    "time" : {
+      "start" : 1518122508333,
+      "stop" : 1518122513362,
+      "duration" : 5029
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepSelectCategory[Наушники]",
+      "title" : "Выбрана категорияНаушники",
+      "time" : {
+        "start" : 1518122508333,
+        "stop" : 1518122513361,
+        "duration" : 5028
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда Выполнено нажатие на кнопку -Перейти ко всем фильтрам",
+    "title" : "Тогда Выполнено нажатие на кнопку -Перейти ко всем фильтрам",
+    "time" : {
+      "start" : 1518122513362,
+      "stop" : 1518122516567,
+      "duration" : 3205
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepSelectAllFilters",
+      "title" : "Нажать на кнопку -Перейти ко всем фильтрам",
+      "time" : {
+        "start" : 1518122513364,
+        "stop" : 1518122516567,
+        "duration" : 3203
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда Выбрана марка Наушниов Beats",
+    "title" : "Когда Выбрана марка Наушниов Beats",
+    "time" : {
+      "start" : 1518122516567,
+      "stop" : 1518122516890,
+      "duration" : 323
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepSelestBeats",
+      "title" : "Выбрана марка Наушников Beats",
+      "time" : {
+        "start" : 1518122516568,
+        "stop" : 1518122516890,
+        "duration" : 322
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда заполняются поля:",
+    "title" : "Тогда заполняются поля:",
+    "time" : {
+      "start" : 1518122516890,
+      "stop" : 1518122517199,
+      "duration" : 309
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepFillOne[Сумма от, 5000]",
+      "title" : "Поле Сумма от заполняется значенем 5000",
+      "time" : {
+        "start" : 1518122516891,
+        "stop" : 1518122517199,
+        "duration" : 308
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда проверены поля, что заполненны правильными значениями:",
+    "title" : "Когда проверены поля, что заполненны правильными значениями:",
+    "time" : {
+      "start" : 1518122517199,
+      "stop" : 1518122517302,
+      "duration" : 103
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepCheckFillOne[Сумма от, 5000]",
+      "title" : "поле Сумма от заполнено значением 5000",
+      "time" : {
+        "start" : 1518122517200,
+        "stop" : 1518122517302,
+        "duration" : 102
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда Выполнено нажатие на кнопку-Показать подходящие",
+    "title" : "Тогда Выполнено нажатие на кнопку-Показать подходящие",
+    "time" : {
+      "start" : 1518122517304,
+      "stop" : 1518122520744,
+      "duration" : 3440
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepPressGoButton",
+      "title" : "Выполнено нажатие на -Показать подходящие",
+      "time" : {
+        "start" : 1518122517304,
+        "stop" : 1518122520744,
+        "duration" : 3440
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда Выполнено нажатие на кнопку выбора вида отображения товара на странице",
+    "title" : "Когда Выполнено нажатие на кнопку выбора вида отображения товара на странице",
+    "time" : {
+      "start" : 1518122520744,
+      "stop" : 1518122521173,
+      "duration" : 429
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "steppressVid",
+      "title" : "Выбор вида отображения товара",
+      "time" : {
+        "start" : 1518122520745,
+        "stop" : 1518122521173,
+        "duration" : 428
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И Выполнена проверка количества товара на странице",
+    "title" : "И Выполнена проверка количества товара на странице",
+    "time" : {
+      "start" : 1518122521173,
+      "stop" : 1518122523675,
+      "duration" : 2502
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepcheckCountGoods",
+      "title" : "Проверка количества товара на странице-12",
+      "time" : {
+        "start" : 1518122521173,
+        "stop" : 1518122523675,
+        "duration" : 2502
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда Выполно запоминание первого товара на странице",
+    "title" : "Тогда Выполно запоминание первого товара на странице",
+    "time" : {
+      "start" : 1518122523675,
+      "stop" : 1518122523752,
+      "duration" : 77
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepmemorizeNameFirstGoods",
+      "title" : "Запоминание первого товара на странице",
+      "time" : {
+        "start" : 1518122523676,
+        "stop" : 1518122523750,
+        "duration" : 74
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда Выполнен поиск запомненного товара",
+    "title" : "Когда Выполнен поиск запомненного товара",
+    "time" : {
+      "start" : 1518122523752,
+      "stop" : 1518122578070,
+      "duration" : 54318
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 1
+    },
+    "status" : "BROKEN",
+    "attachments" : [ {
+      "title" : "Скриншот ошибки",
+      "source" : "0b329237-cf68-4bdd-8907-d4f125e3983f-attachment.png",
+      "type" : "image/png",
+      "size" : 146477,
+      "uid" : "cd29053617e35677"
+    } ],
+    "steps" : [ {
+      "name" : "stepfoundMemorizeNameFirstGoods",
+      "title" : "Поиск запомненого товара ",
+      "time" : {
+        "start" : 1518122523753,
+        "stop" : 1518122577739,
+        "duration" : 53986
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "BROKEN",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда Выполнено сравнение найденного товара с найденным",
+    "title" : "Тогда Выполнено сравнение найденного товара с найденным",
+    "time" : {
+      "start" : 1518122578070,
+      "stop" : 1518122578073,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "6036@devsrv.main(1)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Яндекс Маркет"
+  }, {
+    "name" : "feature",
+    "value" : "Яндекс Маркет"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "devsrv"
+  }, {
+    "name" : "story",
+    "value" : "Выбор категории товара \"Наушники\""
+  } ],
+  "parameters" : [ ]
+}

@@ -18,8 +18,9 @@ public class FilterPage {
     WebElement Beats;
     @FindBy(name = "glf-pricefrom-var")
     WebElement Summa;
-    @FindBy (xpath ="//*[contains(text(),'Показать подходящие')]" )
+    @FindBy (xpath ="//div[@class='n-filter-panel-extend__button-bar']" )
     WebElement GoButton;
+
 
 
     public FilterPage(WebDriver driver) {

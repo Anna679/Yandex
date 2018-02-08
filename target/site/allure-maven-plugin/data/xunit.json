@@ -1,0 +1,49 @@
+{
+  "time" : {
+    "start" : 1518122464312,
+    "stop" : 1518122578806,
+    "duration" : 114494
+  },
+  "testSuites" : [ {
+    "uid" : "41ed3cfc94723996",
+    "name" : "Яндекс Маркет",
+    "title" : "Яндекс Маркет",
+    "time" : {
+      "start" : 1518122464312,
+      "stop" : 1518122578806,
+      "duration" : 114494
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 0,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 1
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "15f8e923478afd9a",
+      "name" : "Выбор категории товара \"Телевизоры\"",
+      "title" : "Выбор категории товара \"Телевизоры\"",
+      "time" : {
+        "start" : 1518122464312,
+        "stop" : 1518122494814,
+        "duration" : 30502
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "1006fcf5b516d092",
+      "name" : "Выбор категории товара \"Наушники\"",
+      "title" : "Выбор категории товара \"Наушники\"",
+      "time" : {
+        "start" : 1518122494817,
+        "stop" : 1518122578806,
+        "duration" : 83989
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    } ]
+  } ]
+}

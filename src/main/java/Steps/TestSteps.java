@@ -23,7 +23,7 @@ marketStep.stepSelectSubMenu(menuItem);
 
 @Then("^выбрана категория товара \"(.*)\"$")
     public void stepSelectCategory (String name){
- marketStep.stepSelectCategory();
+ marketStep.stepSelectCategory(name);
 }
 @Then("^Выполнено нажатие на кнопку -Перейти ко всем фильтрам")
     public void stepSelectAllFilters () {
@@ -54,8 +54,13 @@ marketStep.stepSelectSubMenu(menuItem);
 }
 @Then("^Выполнено нажатие на кнопку-Показать подходящие")
     public void stepPressGoButton () {
+
     filterStep.stepPressGoButton();
     }
+   @When("^Выполнено нажатие на кнопку выбора вида отображения товара на странице")
+   public void stepSelectVid () {
+    orderStep.steppressVid();
+   }
 @When("^Выполнена проверка количества товара на странице")
     public void stepcheckCountGoods (){
     orderStep.stepcheckCountGoods();
